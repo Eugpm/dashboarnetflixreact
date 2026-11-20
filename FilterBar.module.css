@@ -1,0 +1,18 @@
+.wrap { margin: 18px 0 24px; }
+.panel { display: flex; flex-wrap: wrap; gap: 12px; }
+.field select, .reset, .toggle {
+  height: 38px; padding: 0 14px; border-radius: 8px;
+  background: var(--surface-2); border: 1px solid var(--border);
+  color: var(--color-smoke); font-size: var(--fs-small); cursor: pointer;
+}
+.field select { min-width: 170px; max-width: 230px; }
+.field select:hover, .reset:hover:not(:disabled) { border-color: var(--color-teal); }
+.reset:disabled { opacity: 0.5; cursor: default; }
+.toggle { display: none; }
+
+@media (max-width: 768px) {
+  .toggle { display: block; width: 100%; }
+  .panel { display: none; margin-top: 12px; flex-direction: column; }
+  .panel.open { display: flex; }
+  .field select { width: 100%; max-width: none; }
+}

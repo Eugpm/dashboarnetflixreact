@@ -1,0 +1,12 @@
+.row { display: grid; grid-template-columns: repeat(12, 1fr); gap: var(--gutter); margin-bottom: var(--gutter); }
+.main { grid-column: span 4; }
+.main > article { height: 100%; }
+.row > article { grid-column: span 2; }
+
+@media (max-width: 1100px) {
+  .main { grid-column: span 12; }
+  .row > article { grid-column: span 6; }
+}
+@media (max-width: 768px) {
+  .row > article { grid-column: span 12; }
+}

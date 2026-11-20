@@ -1,0 +1,16 @@
+.title { font-size: var(--fs-title); font-weight: 800; line-height: 1.15; }
+.sub { color: var(--text-muted); font-size: var(--fs-small); margin-top: 4px; }
+
+/* Proporciones de la Fase 2: mapa ≈ 52 % del ancho y serie temporal ≈ 48 % */
+.analytic { display: grid; grid-template-columns: 52fr 48fr; gap: var(--gutter); margin-bottom: var(--gutter); }
+.compare { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gutter); }
+
+.foot { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--border); font-size: var(--fs-small); color: var(--text-muted); max-width: 980px; }
+.foot code { color: var(--color-teal); }
+
+@media (max-width: 1100px) {
+  .compare { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 768px) {
+  .analytic, .compare { grid-template-columns: 1fr; }
+}

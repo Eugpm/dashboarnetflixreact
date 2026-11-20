@@ -1,0 +1,6 @@
+.map { height: 270px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); }
+.legend { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 10px; font-size: var(--fs-small); color: var(--text-muted); }
+.chip { display: inline-flex; align-items: center; gap: 6px; color: var(--color-smoke); }
+.chip i { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--border); display: inline-block; }
+:global(.map-tip) { background: var(--color-night); color: var(--color-smoke); border: 1px solid var(--border); font-size: 13px; }
+:global(.leaflet-container) { font-family: inherit; }

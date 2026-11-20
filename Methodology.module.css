@@ -1,0 +1,12 @@
+.page { max-width: 820px; }
+.page h1 { font-size: var(--fs-title); font-weight: 800; }
+.page h2 { font-size: var(--fs-heading); margin: 28px 0 10px; color: var(--color-teal); }
+.lead { color: var(--text-muted); margin-top: 6px; }
+.page dt { font-weight: 700; margin-top: 10px; }
+.page dd { margin: 2px 0 0; color: var(--text-muted); }
+.page li { margin-bottom: 6px; color: var(--text-muted); }
+.page code { color: var(--color-teal); }
+.table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+.table th, .table td { text-align: left; padding: 8px; border-bottom: 1px solid var(--border); }
+.table td { text-align: right; }
+.src { margin-top: 24px; font-size: var(--fs-small); color: var(--text-muted); }

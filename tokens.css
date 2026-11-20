@@ -1,0 +1,32 @@
+/* Paleta definida en la Fase 2 (sección 03). Todo color de la app sale de estas variables. */
+:root {
+  /* Los 4 colores principales */
+  --color-night: #111827;      /* 01 Azul noche: fondo de la aplicación */
+  --color-red: #e50914;        /* 02 Rojo cinematográfico: KPI principal y selección */
+  --color-teal: #29c6b7;       /* 03 Turquesa: serie temporal y acentos informativos */
+  --color-smoke: #f7f9fc;      /* 04 Blanco humo: texto principal */
+
+  /* Superficies derivadas del azul noche (mismas tonalidades del wireframe) */
+  --surface-1: #172033;
+  --surface-2: #1d2940;
+  --border: #2a3a55;
+  --text-muted: #a9b6cb;       /* contraste 7.9:1 sobre surface-1 */
+
+  /* Escala secuencial del mapa: menor presencia → mayor presencia */
+  --scale-0: #26354d;
+  --scale-1: #2b6f7a;
+  --scale-2: #29a3a0;
+  --scale-3: #c4565c;
+  --scale-4: #e50914;
+
+  /* Tipografía (Fase 2): N1 28–32, KPI 44–56, N2 18–20, N3 12–14 */
+  --fs-title: clamp(1.75rem, 2.4vw, 2rem);
+  --fs-kpi: clamp(2.75rem, 3.6vw, 3.5rem);
+  --fs-heading: 1.125rem;
+  --fs-small: 0.8125rem;
+
+  /* Retícula: márgenes 32, separación base 24 */
+  --gutter: 24px;
+  --margin: 32px;
+  --radius: 14px;
+}

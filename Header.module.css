@@ -1,0 +1,14 @@
+.bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
+.brand { display: flex; align-items: center; gap: 10px; }
+.logo {
+  display: grid; place-items: center; width: 28px; height: 28px; border-radius: 6px;
+  background: var(--color-red); color: #fff; font-weight: 800;
+}
+.name { font-weight: 700; letter-spacing: 0.04em; font-size: 0.9rem; }
+.pill {
+  padding: 8px 16px; border-radius: 999px; background: var(--surface-1);
+  border: 1px solid var(--border); color: var(--text-muted);
+  font-size: var(--fs-small); text-decoration: none;
+}
+.pill:hover { color: var(--color-smoke); border-color: var(--color-teal); }
+@media (max-width: 768px) { .pill { display: none; } }

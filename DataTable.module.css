@@ -1,0 +1,6 @@
+.scroll { overflow: auto; max-height: 280px; }
+.table { width: 100%; border-collapse: collapse; font-size: var(--fs-small); }
+.table th, .table td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--border); }
+.table thead th { position: sticky; top: 0; background: var(--surface-1); color: var(--text-muted); font-weight: 600; }
+.table tbody th { font-weight: 400; }
+.table td:last-child, .table thead th:last-child { text-align: right; }

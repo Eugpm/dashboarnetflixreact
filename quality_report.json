@@ -1,0 +1,31 @@
+{
+  "filas_originales": 7787,
+  "columnas": 12,
+  "nulos_por_campo": {
+    "show_id": 0,
+    "type": 0,
+    "title": 0,
+    "director": 2389,
+    "cast": 718,
+    "country": 507,
+    "date_added": 10,
+    "release_year": 0,
+    "rating": 7,
+    "duration": 0,
+    "listed_in": 0,
+    "description": 0
+  },
+  "show_id_vacios": 0,
+  "show_id_duplicados": 0,
+  "date_added_invalidas_o_nulas": 10,
+  "release_year_fuera_de_rango": 0,
+  "duracion_incompatible_con_tipo": 0,
+  "titulos_finales": 7787,
+  "relaciones_titulo_pais": 9054,
+  "relaciones_titulo_genero": 17071,
+  "relaciones_titulo_director": 6114,
+  "etiquetas_pais_historicas_omitidas": 9,
+  "paises_sin_mapear": [],
+  "titulos_sin_pais": 508,
+  "titulos_sin_director": 2389
+}
